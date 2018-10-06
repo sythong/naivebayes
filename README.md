@@ -41,6 +41,9 @@ Step 1: Convert the data set into a frequency table
 
 Step 2: Create Likelihood table by finding the probabilities like Overcast probability = 0.29 and probability of playing is 0.64.
 
+![example_data_set](https://user-images.githubusercontent.com/30338647/46576367-0f413380-c9f2-11e8-89e5-aa7d5b24b16e.png)
+
+
 Bayes_4
 
 Step 3: Now, use Naive Bayesian equation to calculate the posterior probability for each class. The class with the highest posterior probability is the outcome of prediction.
