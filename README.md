@@ -26,7 +26,8 @@ Naive Bayes model is easy to build and particularly useful for very large data s
 
 Bayes theorem provides a way of calculating posterior probability P(c|x) from P(c), P(x) and P(x|c). Look at the equation below:
 
-Bayes_rule-300x172Above,
+![bayes_rule-300x172](https://user-images.githubusercontent.com/30338647/46576377-40b9ff00-c9f2-11e8-9684-55419181c170.png)
+
 
 P(c|x) is the posterior probability of class (c, target) given predictor (x, attributes).
 P(c) is the prior probability of class.
