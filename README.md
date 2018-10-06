@@ -1,5 +1,7 @@
 ## 6 Easy Steps to Learn Naive Bayes Algorithm (with codes in Python) 
 
+source  https://www.analyticsvidhya.com/blog/2017/09/naive-bayes-explained/
+
 ## Introduction
 Here’s a situation you’ve got into:
 
@@ -116,4 +118,13 @@ print predicted
 # Output: ([3,4])
 
 ```
+
+## Tips to improve the power of Naive Bayes Model
+Here are some tips for improving power of Naive Bayes Model:
+
+If continuous features do not have normal distribution, we should use transformation or different methods to convert it in normal distribution.
+If test data set has zero frequency issue, apply smoothing techniques “Laplace Correction” to predict the class of test data set.
+Remove correlated features, as the highly correlated features are voted twice in the model and it can lead to over inflating importance.
+Naive Bayes classifiers has limited options for parameter tuning like alpha=1 for smoothing, fit_prior=[True|False] to learn class prior probabilities or not and some other options (look at detail here). I would recommend to focus on your  pre-processing of data and the feature selection.
+You might think to apply some classifier combination technique like ensembling, bagging and boosting but these methods would not help. Actually, “ensembling, boosting, bagging” won’t help since their purpose is to reduce variance. Naive Bayes has no variance to minimize.
 
